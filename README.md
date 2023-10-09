@@ -1,6 +1,6 @@
 # Netflix Clone iOS App
 
-![App Preview](app_preview.png)
+![App Preview]
 
 ## Overview
 
@@ -68,6 +68,6 @@ Special thanks to the iOS development community for inspiration and support.
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, please feel free to contact us at [contact@netflixcloneapp.com](mailto:mdbakibillahrahat@proton.me).
+If you have any questions, suggestions, or feedback, please feel free to contact us at [mdbakibillahrahat@proton.me](mailto:mdbakibillahrahat@proton.me).
 
 Happy streaming! 🍿📺
