@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C35C08E12AD4551100E36442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C08E02AD4551100E36442 /* AppDelegate.swift */; };
 		C35C08E32AD4551100E36442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C08E22AD4551100E36442 /* SceneDelegate.swift */; };
-		C35C08E52AD4551100E36442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C08E42AD4551100E36442 /* ViewController.swift */; };
+		C35C08E52AD4551100E36442 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C08E42AD4551100E36442 /* MainTabBarViewController.swift */; };
 		C35C08EA2AD4551300E36442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35C08E92AD4551300E36442 /* Assets.xcassets */; };
 		C35C08ED2AD4551300E36442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35C08EB2AD4551300E36442 /* LaunchScreen.storyboard */; };
 		C35C08F82AD4551300E36442 /* Netflix_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C08F72AD4551300E36442 /* Netflix_CloneTests.swift */; };
@@ -38,7 +38,7 @@
 		C35C08DD2AD4551100E36442 /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35C08E02AD4551100E36442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C35C08E22AD4551100E36442 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C35C08E42AD4551100E36442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C35C08E42AD4551100E36442 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		C35C08E92AD4551300E36442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C35C08EC2AD4551300E36442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C35C08EE2AD4551300E36442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 			children = (
 				C35C08E02AD4551100E36442 /* AppDelegate.swift */,
 				C35C08E22AD4551100E36442 /* SceneDelegate.swift */,
-				C35C08E42AD4551100E36442 /* ViewController.swift */,
+				C35C08E42AD4551100E36442 /* MainTabBarViewController.swift */,
 				C35C08E92AD4551300E36442 /* Assets.xcassets */,
 				C35C08EB2AD4551300E36442 /* LaunchScreen.storyboard */,
 				C35C08EE2AD4551300E36442 /* Info.plist */,
@@ -254,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C35C08E52AD4551100E36442 /* ViewController.swift in Sources */,
+				C35C08E52AD4551100E36442 /* MainTabBarViewController.swift in Sources */,
 				C35C08E12AD4551100E36442 /* AppDelegate.swift in Sources */,
 				C35C08E32AD4551100E36442 /* SceneDelegate.swift in Sources */,
 			);
