@@ -13,7 +13,7 @@ class CollectionViewTableViewCell: UITableViewCell {
     
     private let collectionView: UICollectionView = {
         
-        let layout =  UICollectionViewLayout()
+        let layout =  UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.register(UICollectionView.self, forCellWithReuseIdentifier: "cell")
@@ -39,6 +39,7 @@ extension CollectionViewTableViewCell: UICollectionViewDelegate, UICollectionVie
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: <#T##IndexPath#>)
+        cell.backgroundColor = .green
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
